@@ -5,14 +5,6 @@ import discord
 import os
 import random
 
-# Sources (for me)
-# Discord dev page: https://discord.com/developers/applications/983182266480078848/bot
-# Original file on replit: https://replit.com/@mkaplan6/SOSP22chatBot#main.py
-
-# This is the code for Botlionis3, a discord chatbot for the discord server of my friend group.
-# A lot of it is inside jokes and things that don't mean much to most people, but it was fun
-# and educational creating this and it is my first ever python project. 
-
 client = commands.Bot(command_prefix = '!')
 
 # notifies the channel when the bot begins running
@@ -162,4 +154,4 @@ async def chat(context):
     await context.message.channel.send(random.choice(client.thirdResponses))
     
 
-client.run('OTgzMTgyMjY2NDgwMDc4ODQ4.GOfXft._clNk8gRVHF8wykUiB_d_jTDZD5vZbYOPeT0QA')
+client.run('token would go here')
