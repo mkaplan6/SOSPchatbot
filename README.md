@@ -7,6 +7,7 @@ The bot is a collection of passive and active commands that may mean little to m
 
 A full list of commands and functions is below.
 
+```
 Sends a message when activated
 Responds to names
 Responds to words ending in "er" ("I hardly know her")
@@ -21,3 +22,4 @@ Responds to certain locations
 !react sends a random reaction emoji from my laptop
 !hmm sends an un-named youtube link (it's a rickroll)
 !excuse sends a random excuse that my friends or I would jokingly use during conversation
+```
